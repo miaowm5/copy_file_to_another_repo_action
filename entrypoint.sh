@@ -36,7 +36,7 @@ else
 fi
 
 echo "Copying contents to git repo"
-rm -rf $CLONE_DIR/$INPUT_DESTINATION_FOLDER/$DEST_COPY
+rm -rf $CLONE_DIR/$INPUT_DESTINATION_FOLDER/$INPUT_SOURCE_FILE
 mkdir -p $CLONE_DIR/$INPUT_DESTINATION_FOLDER
 if [ -z "$INPUT_USE_RSYNC" ]
 then
